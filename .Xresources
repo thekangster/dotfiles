@@ -1,0 +1,74 @@
+!! Appearance
+URxvt.font: \
+	xft:Fira Mono:size=9:antialias=true:hinting=true,\
+	xft:Fira Code:size=9:antialias=true:hinting=true,\
+    xft:Source Code Pro:size=9:antialias=true:hinting=true
+URxvt.letterSpace: -1
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 10
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.urgentOnBell: true
+URxvt.depth: 32
+
+!! Colorscheme
+*.foreground: #D3C6AA
+*.background: #080808
+!!*.background: #2F383E
+*.cursorColor: #FFFFFF
+
+! black
+*.color0: #7A8478
+*.color8: #859289
+! red
+*.color1: #E67E80
+*.color9: #E67E80
+! green
+*.color2: #A7C080
+*.color10: #A7C080
+! yellow
+*.color3: #DBBC7F
+*.color11: #DBBC7F
+! blue
+*.color4: #7FBBB3
+*.color12: #7FBBB3
+! magenta/purple
+*.color5: #D699B6
+*.color13: #D699B6
+! cyan
+*.color6: #83C092
+*.color14: #83C092
+! white
+*.color7: #D3C6AA
+*.color15: #D3C6AA
+
+!! Extensions
+URxvt.perl-ext-common: default,resize-font
+
+! Extension Settings
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
+
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+
+!! Retina Display Settings
+Xft.dpi: 235
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
