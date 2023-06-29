@@ -5,9 +5,9 @@ window:
   opacity: 0.9
   padding:
     x: 0
-    y: 0
+    y: 2
   decorations: buttonless
-startup_mode: SimpleFullscreen
+startup_mode: Windowed
 
 dimensions:
   columns: 130
@@ -15,21 +15,49 @@ dimensions:
 
 font:
   normal:
-    family: Fira Mono For Powerline
-      #style: Retina
+    family: Menlo #Fira Mono
   size: 14.5
-  offset:
-    x: 0
-    y: 1
+#  offset:
+#    x: 0
+#    y: 1
+
+      #colors:
+      #  primary:
+      #    background: '#171515'
+      #    #background: '#1c1621'
+      #    foreground: '#FFFFEF'
+      #  cursor:
+      #    text:    '#000000'
+      #    cursor:  '#ffffff'
+      #  normal:
+      #    black:   '#7A8478'
+      #    red:     '#E67E80'
+      #    green:   '#A7C080'
+      #    yellow:  '#DBBC7F'
+      #    blue:    '#7FBBB3'
+      #    magenta: '#D699B6'
+      #    cyan:    '#7FBBB3'
+      #    white:   '#FFFFE7'
+      #  bright:
+      #    black:   '#859289'
+      #    red:     '#E67E80'
+      #    green:   '#A7C080'
+      #    yellow:  '#DBBC7F'
+      #    blue:    '#7FBBB3'
+      #    magenta: '#D699B6'
+      #    cyan:    '#7FBBB3'
+      #    white:   '#FFFFE7'
 
 colors:
   primary:
     background: '#171515'
     #background: '#1c1621'
-    foreground: '#ffffe2'
+    foreground: '#FFFFEF'
+    #background: "#0E1018"
+    #foreground: "#ebdbb2"
   cursor:
-    text: '0x000000'
-    cursor: '0xFEFFFF'
+    text:    '#000000'
+    cursor:  '#ffffff'
   normal:
     black: "#282828"
     red: "#cc241d"
@@ -37,8 +65,9 @@ colors:
     yellow: "#d79921"
     blue: "#458588"
     magenta: "#b16286"
-    cyan: "#40bfbf"
-    white: "#a89984"
+    cyan: "#689d6a"
+    white: "#dfaf87"
+
   bright:
     black: "#928374"
     red: "#fb4934"
@@ -48,87 +77,6 @@ colors:
     magenta: "#d3869b"
     cyan: "#8ec07c"
     white: "#ebdbb2"
-
-
-      #    black:   '0x000202'
-      #    red:     '0xFF1707'
-      #    green:   '0x4E9B07'
-      #    yellow:  '0xC5A101'
-      #    blue:    '0x0777BC'
-      #    magenta: '0x75507B'
-      #    cyan:    '0x06989A'
-      #    white:   '0xD7DBD7'
-      #
-      #  # Bright colors
-      #  bright:
-      #    black:   '#7A8478'
-      #    red:     '#E67E80'
-      #    green:   '#A7C080'
-      #    yellow:  '#DBBC7F'
-      #    blue:    '#7FBBB3'
-      #    magenta: '#D699B6'
-      #    cyan:    '#83C092'
-      #    white:   '#D3C6AA'
-
-
-# colors:
-#   primary:
-#     background: '#171515'
-#     #background: '#1c1621'
-#     foreground: '#ffffef'
-#   cursor:
-#     text:    '#000000'
-#     cursor:  '#ffffff'
-#   normal:
-#     black:   '#7A8478'
-#     red:     '#E67E80'
-#     green:   '#A7C080'
-#     yellow:  '#DBBC7F'
-#     blue:    '#7FBBB3'
-#     magenta: '#D699B6'
-#     cyan:    '#83C092'
-#     white:   '#D3C6AA'
-#   bright:
-#     black:   '#424242'
-#     red:     '#FF3F61'
-#     green:   '#86E86A'
-#     yellow:  '#FFE35F'
-#     blue:    '#3EB4E8'
-#     magenta: '#FF7B34'
-#     cyan:    '#83C092'
-#     white:   '#FFFFEF'
-
-# colors:
-#   # Default colors
-#   primary:
-#     background: '#171515'
-#     #background: '#1c1621'
-#     foreground: '#ffffff'
-#   cursor:
-#     text: '#F81CE5'
-#     cursor: '#ffffff'
-# 
-#   # Normal colors
-#   normal:
-#     black:   '#000000'
-#     red:     '#fe0100'
-#     green:   '#00a600'
-#     yellow:  '#feff00'
-#     blue:    '#0066ff'
-#     magenta: '#cc00ff'
-#     cyan:    '#00ffff'
-#     white:   '#d0d0d0'
-# 
-#   # Bright colors
-#   bright:
-#     black:   '#808080'
-#     red:     '#fe0100'
-#     green:   '#00d900'
-#     yellow:  '#feff00'
-#     blue:    '#0066ff'
-#     magenta: '#cc00ff'
-#     cyan:    '#00ffff'
-#     white:   '#FFFFFF'
 
 selection:
   # This string contains all characters that are used as separators for
