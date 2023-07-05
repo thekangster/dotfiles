@@ -21,7 +21,10 @@ return require("packer").startup(function(use)
         end
     })
 
+    use('aktersnurra/no-clown-fiesta.nvim')
+
     use("nvim-treesitter/nvim-treesitter", {run = ':TSUpdate'})
+
     use("theprimeagen/harpoon")
 
     use {
