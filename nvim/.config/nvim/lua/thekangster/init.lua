@@ -1,3 +1,4 @@
+require("thekangster.colorscheme")
 require("thekangster.remap")
 require("thekangster.set")
 require("thekangster.statusline")
