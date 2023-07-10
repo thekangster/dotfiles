@@ -2,7 +2,7 @@ env:
   TERM: xterm-256color
 
 window:
-  opacity: 0.9
+  opacity: 0.92
   padding:
     x: 0
     y: 2
@@ -15,68 +15,73 @@ dimensions:
 
 font:
   normal:
-    family: Menlo #Fira Mono
-  size: 14.5
-#  offset:
-#    x: 0
-#    y: 1
+    #family: DejaVu Sans Mono
+    #family: Hack Nerd Font Mono
+    #family: Source Code Pro
+    family: JetBrainsMono Nerd Font 
+    #family: UbuntuMono Nerd Font 
+    #family: FiraCode Nerd Font
+    #style: Regular
+  size: 14
+  offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '#101010'
+    foreground: '#ffffef'
+
+  normal:
+    black:   '0x665c54'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe78a4e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+  bright:
+    black:   '0x928374'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe3a84e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
 
       #colors:
       #  primary:
-      #    background: '#171515'
+      #    background: "#101010"
+      #    #background: '#171515'
       #    #background: '#1c1621'
       #    foreground: '#FFFFEF'
+      #    #background: "#0E1018"
+      #    #foreground: "#ebdbb2"
       #  cursor:
       #    text:    '#000000'
       #    cursor:  '#ffffff'
       #  normal:
-      #    black:   '#7A8478'
-      #    red:     '#E67E80'
-      #    green:   '#A7C080'
-      #    yellow:  '#DBBC7F'
-      #    blue:    '#7FBBB3'
-      #    magenta: '#D699B6'
-      #    cyan:    '#7FBBB3'
-      #    white:   '#FFFFE7'
+      #    black: "#282828"
+      #    red: "#cc241d"
+      #    green: "#98971a"
+      #    yellow: "#d79921"
+      #    blue: "#458588"
+      #    magenta: "#b16286"
+      #    cyan: "#689d6a"
+      #    white: "#dfaf87"
+      #
       #  bright:
-      #    black:   '#859289'
-      #    red:     '#E67E80'
-      #    green:   '#A7C080'
-      #    yellow:  '#DBBC7F'
-      #    blue:    '#7FBBB3'
-      #    magenta: '#D699B6'
-      #    cyan:    '#7FBBB3'
-      #    white:   '#FFFFE7'
-
-colors:
-  primary:
-    background: '#171515'
-    #background: '#1c1621'
-    foreground: '#FFFFEF'
-    #background: "#0E1018"
-    #foreground: "#ebdbb2"
-  cursor:
-    text:    '#000000'
-    cursor:  '#ffffff'
-  normal:
-    black: "#282828"
-    red: "#cc241d"
-    green: "#98971a"
-    yellow: "#d79921"
-    blue: "#458588"
-    magenta: "#b16286"
-    cyan: "#689d6a"
-    white: "#dfaf87"
-
-  bright:
-    black: "#928374"
-    red: "#fb4934"
-    green: "#b8bb26"
-    yellow: "#fabd2f"
-    blue: "#83a598"
-    magenta: "#d3869b"
-    cyan: "#8ec07c"
-    white: "#ebdbb2"
+      #    black: "#928374"
+      #    red: "#fb4934"
+      #    green: "#b8bb26"
+      #    yellow: "#fabd2f"
+      #    blue: "#83a598"
+      #    magenta: "#d3869b"
+      #    cyan: "#8ec07c"
+      #    white: "#ebdbb2"
 
 selection:
   # This string contains all characters that are used as separators for
@@ -95,6 +100,8 @@ cursor:
   style:
     shape: Block
     blinking: Always
-    blink_interval: 500
+    blink-interval: 750
+    unfocused_hollow: true
 
+live_config_reload: true
 # iterm background color 251e2c
